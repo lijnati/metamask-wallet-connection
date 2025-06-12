@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { ethers } from 'ethers';
+
 
 export default function ConnectWallet() {
   const [walletAddress, setWalletAddress] = useState<string | null>(null);
@@ -13,7 +13,7 @@ export default function ConnectWallet() {
           method: 'eth_requestAccounts',
         });
         setWalletAddress(accounts[0]);
-      } catch (error) {
+      } catch (_error) {
         console.error('User rejected wallet connection');
       }
     } else {
