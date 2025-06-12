@@ -1,4 +1,4 @@
-# 🧮 Ethereum Counter dApp
+# 🧮 Metamask wallet connection
 
 A mini decentralized app (dApp) using MetaMask and Ethers.js.
 
@@ -9,7 +9,7 @@ A mini decentralized app (dApp) using MetaMask and Ethers.js.
 
 ## 🛠 Tech Stack
 
-- **Next.js 14 (App Router)**
+- **Next.js 15 (App Router)**
 - **Ethers.js**
 - **TailwindCSS**
 - **Solidity (via Remix)**
@@ -37,8 +37,8 @@ contract Counter {
 🧑‍💻 Setup Locally
 
 ```
-git clone https://github.com/yourusername/my-counter-dapp.git
-cd my-counter-dapp
+git clone https://github.com/lijnati/metamask-wallet-connection.git
+cd metamask-wallet-connection
 npm install
 ```
 
